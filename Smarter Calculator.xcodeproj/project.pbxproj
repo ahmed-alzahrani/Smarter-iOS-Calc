@@ -12,16 +12,20 @@
 		4D535A9220A0EAE4005E79F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D535A9020A0EAE4005E79F6 /* Main.storyboard */; };
 		4D535A9420A0EAE6005E79F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D535A9320A0EAE6005E79F6 /* Assets.xcassets */; };
 		4D535A9720A0EAE6005E79F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D535A9520A0EAE6005E79F6 /* LaunchScreen.storyboard */; };
+		4D535AA020A1113D005E79F6 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D535A9F20A1113D005E79F6 /* CalculatorBrain.swift */; };
+		4DFEEE9B20A16A8400638193 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DFEEE9A20A16A8300638193 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D535A8920A0EAE4005E79F6 /* Smarter Calculaor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smarter Calculaor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D535A8920A0EAE4005E79F6 /* Smarter Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smarter Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D535A8C20A0EAE4005E79F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D535A8E20A0EAE4005E79F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D535A9120A0EAE4005E79F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D535A9320A0EAE6005E79F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D535A9620A0EAE6005E79F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D535A9820A0EAE6005E79F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D535A9F20A1113D005E79F6 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		4DFEEE9A20A16A8300638193 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +42,8 @@
 		4D535A8020A0EAE4005E79F6 = {
 			isa = PBXGroup;
 			children = (
-				4D535A8B20A0EAE4005E79F6 /* Smarter Calculaor */,
+				4DFEEE9A20A16A8300638193 /* Default-568h@2x.png */,
+				4D535A8B20A0EAE4005E79F6 /* Smarter Calculator */,
 				4D535A8A20A0EAE4005E79F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +51,39 @@
 		4D535A8A20A0EAE4005E79F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D535A8920A0EAE4005E79F6 /* Smarter Calculaor.app */,
+				4D535A8920A0EAE4005E79F6 /* Smarter Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D535A8B20A0EAE4005E79F6 /* Smarter Calculaor */ = {
+		4D535A8B20A0EAE4005E79F6 /* Smarter Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				4D535A9E20A0EB01005E79F6 /* Supporting Files */,
+				4D535A8E20A0EAE4005E79F6 /* ViewController.swift */,
+				4D535A9F20A1113D005E79F6 /* CalculatorBrain.swift */,
+				4D535A9020A0EAE4005E79F6 /* Main.storyboard */,
+				4D535A9820A0EAE6005E79F6 /* Info.plist */,
+			);
+			path = "Smarter Calculator";
+			sourceTree = "<group>";
+		};
+		4D535A9E20A0EB01005E79F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				4D535A8C20A0EAE4005E79F6 /* AppDelegate.swift */,
-				4D535A8E20A0EAE4005E79F6 /* ViewController.swift */,
-				4D535A9020A0EAE4005E79F6 /* Main.storyboard */,
 				4D535A9320A0EAE6005E79F6 /* Assets.xcassets */,
 				4D535A9520A0EAE6005E79F6 /* LaunchScreen.storyboard */,
-				4D535A9820A0EAE6005E79F6 /* Info.plist */,
 			);
-			path = "Smarter Calculaor";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D535A8820A0EAE4005E79F6 /* Smarter Calculaor */ = {
+		4D535A8820A0EAE4005E79F6 /* Smarter Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D535A9B20A0EAE6005E79F6 /* Build configuration list for PBXNativeTarget "Smarter Calculaor" */;
+			buildConfigurationList = 4D535A9B20A0EAE6005E79F6 /* Build configuration list for PBXNativeTarget "Smarter Calculator" */;
 			buildPhases = (
 				4D535A8520A0EAE4005E79F6 /* Sources */,
 				4D535A8620A0EAE4005E79F6 /* Frameworks */,
@@ -79,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = "Smarter Calculaor";
+			name = "Smarter Calculator";
 			productName = "Smarter Calculaor";
-			productReference = 4D535A8920A0EAE4005E79F6 /* Smarter Calculaor.app */;
+			productReference = 4D535A8920A0EAE4005E79F6 /* Smarter Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D535A8420A0EAE4005E79F6 /* Build configuration list for PBXProject "Smarter Calculaor" */;
+			buildConfigurationList = 4D535A8420A0EAE4005E79F6 /* Build configuration list for PBXProject "Smarter Calculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D535A8820A0EAE4005E79F6 /* Smarter Calculaor */,
+				4D535A8820A0EAE4005E79F6 /* Smarter Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D535A9720A0EAE6005E79F6 /* LaunchScreen.storyboard in Resources */,
+				4DFEEE9B20A16A8400638193 /* Default-568h@2x.png in Resources */,
 				4D535A9420A0EAE6005E79F6 /* Assets.xcassets in Resources */,
 				4D535A9220A0EAE4005E79F6 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D535AA020A1113D005E79F6 /* CalculatorBrain.swift in Sources */,
 				4D535A8F20A0EAE4005E79F6 /* ViewController.swift in Sources */,
 				4D535A8D20A0EAE4005E79F6 /* AppDelegate.swift in Sources */,
 			);
@@ -282,12 +298,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6TGDJ7X5CN;
-				INFOPLIST_FILE = "Smarter Calculaor/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Smarter Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ahmed.Smarter-Calculaor";
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmed.Smarter-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +316,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6TGDJ7X5CN;
-				INFOPLIST_FILE = "Smarter Calculaor/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Smarter Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ahmed.Smarter-Calculaor";
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmed.Smarter-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D535A8420A0EAE4005E79F6 /* Build configuration list for PBXProject "Smarter Calculaor" */ = {
+		4D535A8420A0EAE4005E79F6 /* Build configuration list for PBXProject "Smarter Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D535A9920A0EAE6005E79F6 /* Debug */,
@@ -324,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D535A9B20A0EAE6005E79F6 /* Build configuration list for PBXNativeTarget "Smarter Calculaor" */ = {
+		4D535A9B20A0EAE6005E79F6 /* Build configuration list for PBXNativeTarget "Smarter Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D535A9C20A0EAE6005E79F6 /* Debug */,
