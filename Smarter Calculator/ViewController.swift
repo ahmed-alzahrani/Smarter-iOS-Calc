@@ -53,6 +53,7 @@ class ViewController: UIViewController {
         variables.removeAll()
         brain.clearSequence()
         handleEvaluation()
+        variableLabel.text = "M = 0.0"
         descriptionLabel.text! = " "
     }
     
@@ -61,7 +62,6 @@ class ViewController: UIViewController {
             userIsTyping = false
             display.text = "0"
         } else {
-            print("User was not typing, I'm gonna undo!")
             brain.undo()
             handleEvaluation()
         }
